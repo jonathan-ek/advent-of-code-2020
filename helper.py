@@ -1,4 +1,4 @@
-def get_input(day, part=1):
+def get_input(day, post_fix=1):
     """Read the input file and return the content as a string."""
-    with open(f'input/day_{day:02d}_{part}.txt', 'r') as data:
+    with open(f'input/day_{day:02d}_{post_fix}.txt', 'r') as data:
         return data.read()
